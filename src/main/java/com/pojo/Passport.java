@@ -7,14 +7,21 @@ public class Passport {
 		
 
 		private String name;
+		private String address;
 		private String Passnumber;
 		private String git;
-
 		private String  kitkat;
-
-        private String quantum;		
+        private String quantum;	
+        
+        
 		
 		
+		public String getAddress() {
+			return address;
+		}
+		public void setAddress(String address) {
+			this.address = address;
+		}
 		public String getKitkat() {
 			return kitkat;
 		}
