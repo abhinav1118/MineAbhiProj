@@ -9,9 +9,15 @@ public class Passport {
 		private String name;
 		private String Passnumber;
 		private String git;
+        private String quantum;		
 		
 		
-		
+		public String getQuantum() {
+			return quantum;
+		}
+		public void setQuantum(String quantum) {
+			this.quantum = quantum;
+		}
 		public String getGit() {
 			return git;
 		}
