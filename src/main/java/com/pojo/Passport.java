@@ -9,9 +9,17 @@ public class Passport {
 		private String name;
 		private String Passnumber;
 		private String git;
+		private String  kitkat;
 		
 		
 		
+		
+		public String getKitkat() {
+			return kitkat;
+		}
+		public void setKitkat(String kitkat) {
+			this.kitkat = kitkat;
+		}
 		public String getGit() {
 			return git;
 		}
