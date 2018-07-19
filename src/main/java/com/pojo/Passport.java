@@ -9,9 +9,10 @@ public class Passport {
 		private String name;
 		private String Passnumber;
 		private String git;
+
 		private String  kitkat;
-		
-		
+
+        private String quantum;		
 		
 		
 		public String getKitkat() {
@@ -19,6 +20,13 @@ public class Passport {
 		}
 		public void setKitkat(String kitkat) {
 			this.kitkat = kitkat;
+		}
+
+		public String getQuantum() {
+			return quantum;
+		}
+		public void setQuantum(String quantum) {
+			this.quantum = quantum;
 		}
 		public String getGit() {
 			return git;
