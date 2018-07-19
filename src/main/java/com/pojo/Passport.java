@@ -7,6 +7,13 @@ public class Passport {
 		
 
 		private String name;
+		private String Conflict;
+		public String getConflict() {
+			return Conflict;
+		}
+		public void setConflict(String conflict) {
+			Conflict = conflict;
+		}
 		private String Passnumber;
 		private String git;
 
